@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "myView.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    myView* view = [[myView alloc] initWithFrame:CGRectMake(10, 40, 200,200)];
+    [view setBackgroundColor:[UIColor grayColor]];
+    [self.view addSubview:view];
+    view.sections = @[@20,@30];
+    view.colorSections = @[[UIColor redColor],[UIColor yellowColor]];
 }
 
 @end

@@ -15,6 +15,7 @@
 		4B06DE1A1CB3581100FC0BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B06DE181CB3581100FC0BF8 /* LaunchScreen.storyboard */; };
 		4B06DE251CB3581100FC0BF8 /* demo3____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B06DE241CB3581100FC0BF8 /* demo3____Tests.m */; };
 		4B06DE301CB3581100FC0BF8 /* demo3____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B06DE2F1CB3581100FC0BF8 /* demo3____UITests.m */; };
+		4B06DE3F1CB3588300FC0BF8 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B06DE3E1CB3588300FC0BF8 /* myView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4B06DE2B1CB3581100FC0BF8 /* demo3_饼状图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo3_饼状图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B06DE2F1CB3581100FC0BF8 /* demo3____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "demo3____UITests.m"; sourceTree = "<group>"; };
 		4B06DE311CB3581100FC0BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B06DE3D1CB3588300FC0BF8 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		4B06DE3E1CB3588300FC0BF8 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4B06DE0E1CB3581100FC0BF8 /* AppDelegate.m */,
 				4B06DE101CB3581100FC0BF8 /* ViewController.h */,
 				4B06DE111CB3581100FC0BF8 /* ViewController.m */,
+				4B06DE3D1CB3588300FC0BF8 /* myView.h */,
+				4B06DE3E1CB3588300FC0BF8 /* myView.m */,
 				4B06DE131CB3581100FC0BF8 /* Main.storyboard */,
 				4B06DE161CB3581100FC0BF8 /* Assets.xcassets */,
 				4B06DE181CB3581100FC0BF8 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B06DE3F1CB3588300FC0BF8 /* myView.m in Sources */,
 				4B06DE121CB3581100FC0BF8 /* ViewController.m in Sources */,
 				4B06DE0F1CB3581100FC0BF8 /* AppDelegate.m in Sources */,
 				4B06DE0C1CB3581100FC0BF8 /* main.m in Sources */,
